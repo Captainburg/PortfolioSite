@@ -1,7 +1,6 @@
-A very simple personal Website, designed to be easy to customize.
-
+TODO LIST:
+Scrolldown Transition
+Portfolio of my work
 
 Built with Bootstrap,
-Icons designed by Google and [Dave Gandy](http://www.flaticon.com/authors/dave-gandy) from Flaticon
-
 Hosted on Github Pages
