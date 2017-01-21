@@ -1,11 +1,15 @@
-.vertical-center {
-  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 50vh; /* These two lines are counted as one :-)       */
-
-  display: flex;
-  align-items: center;
+body {
+  padding-bottom: 200px;
 }
-
-h1 {
-  font-family: 'Rubik', sans-serif;
+.nav > li{
+  -webkit-transition-property: background-color; /* Safari */
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-property: background-color;
+  transition-duration: 0.7s;
+}
+.nav > li:hover{
+  background-color: #e0ff49;
+}
+.video-annotations {
+  display:none;
 }
