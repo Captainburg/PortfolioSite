@@ -1,14 +1,22 @@
 body {
   padding-bottom: 200px;
 }
+.nav > li:hover{
+  -webkit-transition-property: background-color; /* Safari */
+  -webkit-transition-duration: 0.15s; /* Safari */
+  transition-property: background-color;
+  transition-duration: 0.15s;
+}
+
 .nav > li{
   -webkit-transition-property: background-color; /* Safari */
-  -webkit-transition-duration: 0.7s; /* Safari */
+  -webkit-transition-duration: 0.8s; /* Safari */
   transition-property: background-color;
-  transition-duration: 0.7s;
+  transition-duration: 0.8s;
 }
+
 .nav > li:hover{
-  background-color: #e0ff49;
+  background-color: rgb(38, 224, 220);
 }
 .video-annotations {
   display:none;
